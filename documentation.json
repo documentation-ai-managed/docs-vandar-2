@@ -3,12 +3,12 @@
   "colors": {
     "light": {
       "brand": "#9472E4",
-      "heading": "#201865",
+      "heading": "#9472E4",
       "text": "#efedde"
     },
     "dark": {
       "brand": "#9472E4",
-      "heading": "#201865",
+      "heading": "#9472E4",
       "text": "#efedde"
     }
   },
