@@ -51,12 +51,12 @@
         "icon": "help-circle",
         "pages": [
           {
-            "title": "Help Center",
+            "title": "مركز المساعدة",
             "path": "help-center",
-            "icon": "home"
+            "icon": "message-circle-question"
           },
           {
-            "group": "FAQs",
+            "group": "الأسئلة الشائعة",
             "icon": "help-circle",
             "expandable": false,
             "pages": [
@@ -67,7 +67,7 @@
             ]
           },
           {
-            "group": "Troubleshooting",
+            "group": "حل المشاكل",
             "icon": "alert-triangle",
             "expandable": false,
             "pages": [
@@ -78,7 +78,7 @@
             ]
           },
           {
-            "group": "Guides",
+            "group": "الإرشادات والمعلومات العامة",
             "icon": "book-open",
             "expandable": false,
             "pages": [
