@@ -1,0 +1,102 @@
+---
+title: Changelog
+description: Track the latest updates and improvements to the Vandar platform, including new features and bug fixes.
+---
+
+## Recent Updates
+
+<Callout kind="info">
+Stay up to date with Vandar's latest releases. Each update brings new game products, performance enhancements, and security improvements to ensure fast and secure digital purchases.
+</Callout>
+
+<Update label="2024-10-15" description="v1.2.0" tags={["feature", "improvement"]}>
+
+## New Features
+
+- Added support for top-selling games including `Elden Ring: Shadow of the Erdtree` (PC) and `EA Sports FC 26 Ultimate` with instant delivery.
+- Introduced Arabic interface enhancements for better localization.
+- New customer dashboard for tracking orders and game codes.
+
+## Improvements
+
+- Optimized checkout process reducing load time by `>50%`.
+- Enhanced mobile responsiveness for seamless shopping on all devices.
+
+</Update>
+
+<Update label="2024-09-20" description="v1.1.0" tags={["bugfix", "security"]}>
+
+## Bug Fixes
+
+- Fixed account sharing issues for subscription-based games like `Ghost of Tsushima`.
+- Resolved payment gateway errors during high-traffic periods.
+
+## Security Updates
+
+- Implemented stronger encryption for game codes and user data.
+- Added two-factor authentication for account logins.
+
+</Update>
+
+<Update label="2024-08-10" description="v1.0.0" tags={["feature", "breaking"]}>
+
+## New Features
+
+- Launched core platform with instant game code delivery for PC titles.
+- Integrated major payment methods popular in Saudi Arabia.
+
+## Breaking Changes
+
+- Updated API endpoints for order tracking (migrate from legacy paths).
+
+</Update>
+
+## How to Upgrade
+
+Follow these steps to ensure you have the latest version of the Vandar client or integration.
+
+<Steps>
+  <Step title="Check Current Version" icon="package">
+    Run the version check command in your terminal.
+
+````bash
+vandar --version
+````
+
+  </Step>
+  <Step title="Update Package" icon="download">
+    <Tabs>
+      <Tab title="npm" icon="nodejs">
+````bash
+npm update vandar-store-sdk
+````
+      </Tab>
+      <Tab title="yarn" icon="package">
+````bash
+yarn upgrade vandar-store-sdk
+````
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step title="Verify Installation" icon="check-circle">
+    Test a sample purchase flow using the dashboard at `https://dashboard.vandarstore.com`.
+  </Step>
+</Steps>
+
+## Quick Links
+
+<Columns cols={3}>
+  <Card title="Introduction" icon="book-open" href="/introduction">
+    Learn about Vandar basics.
+  </Card>
+  <Card title="Quickstart" icon="rocket" href="/quickstart">
+    Get started purchasing game codes.
+  </Card>
+  <Card title="Support" icon="help-circle" href="/help-center">
+    Find help and contact support.
+  </Card>
+</Columns>
+
+<Callout kind="tip">
+Subscribe to our newsletter or follow `@vandarstore` on social media for instant update notifications.
+</Callout>

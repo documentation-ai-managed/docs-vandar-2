@@ -1,0 +1,170 @@
+---
+title: Troubleshooting Common Issues
+description: Resolve frequent problems encountered while shopping or using products on Vandar, ensuring a smooth experience.
+---
+
+## Quick Troubleshooting Checklist
+
+<Callout kind="tip">
+Before diving into specific issues, verify these basics:
+- Check your internet connection and try refreshing the page.
+- Clear your browser cache and cookies.
+- Ensure you're using the latest browser version (Chrome, Firefox, Safari).
+- Review your email spam folder for Vandar notifications.
+</Callout>
+
+Use the sections below to address common problems with orders, codes, payments, and accounts.
+
+## Order Confirmation and Status Checks
+
+Orders on Vandar typically confirm within seconds, but delays can occur due to high traffic or payment processing.
+
+### Check Order Status
+
+<Steps>
+  <Step title="Log into Dashboard" icon="log-in">
+    Visit `https://dashboard.vandarstore.com` and sign in with your account credentials.
+  </Step>
+  <Step title="Navigate to Orders" icon="package">
+    Click on the `Orders` tab in the sidebar.
+  </Step>
+  <Step title="View Details" icon="eye">
+    Search for your order by ID or date. Status shows as `Pending`, `Confirmed`, `Shipped`, or `Delivered`.
+  </Step>
+</Steps>
+
+If no confirmation email arrives:
+
+```bash
+# Example: Contact support with order details
+Email: support@vandarstore.com
+Subject: Order #12345 - No Confirmation
+```
+
+<Callout kind="info">
+Order IDs start with `VND-` followed by numbers. Save your receipt screenshot.
+</Callout>
+
+## Code Activation Errors
+
+Game codes and accounts from Vandar activate via platforms like Steam, Epic Games, or PlayStation Network.
+
+<Tabs>
+  <Tab title="Steam Activation" icon="package">
+    <Steps>
+      <Step title="Open Steam Client">
+        Launch Steam on PC.
+      </Step>
+      <Step title="Enter Code">
+        Go to `Games` > `Activate a Product on Steam` and paste your Vandar code.
+      </Step>
+      <Step title="Verify">
+        If error `INVALID_CODE`, ensure no extra spaces and check code expiry.
+      </Step>
+    </Steps>
+  </Tab>
+  <Tab title="Epic Games" icon="monitor">
+    <Steps>
+      <Step title="Redeem Code">
+        Log into Epic Games launcher > `Store` > `Redeem`.
+      </Step>
+      <Step title="Troubleshoot">
+        Error `REDEEM_FAILED`? Confirm regional restrictions (Vandar codes are global).
+      </Step>
+    </Steps>
+  </Tab>
+</Tabs>
+
+<Expandable title="Advanced Fixes" default-open="false">
+Common errors:
+
+| Error Code | Cause | Solution |
+|------------|-------|----------|
+| `EXP-001` | Expired code | Contact support for replacement. |
+| `REG-LOCK` | Region lock | Use VPN matching code region (Saudi/International). |
+| `USED` | Already redeemed | Check your library first. |
+
+Copy the exact error message when contacting `support@vandarstore.com`.
+</Expandable>
+
+## Payment Failures and Refunds
+
+Payments process via local Saudi gateways like Mada, STC Pay, or international cards.
+
+### Resolve Payment Issues
+
+```javascript
+// Example API check (if using Vandar API)
+fetch('https://api.vandarstore.com/v1/orders/12345', {
+  headers: { 'Authorization': 'Bearer YOUR_API_KEY' }
+})
+.then(response => response.json())
+.then(data => console.log(data.status));
+```
+
+<Columns cols={2}>
+  <Card title="Failed Transaction" icon="credit-card" href="#payment-fail">
+    Review bank statements for holds.
+  </Card>
+  <Card title="Refund Process" icon="arrow-left-right" href="#refund">
+    Refunds process in 3-7 days.
+  </Card>
+</Columns>
+
+#### Request a Refund
+
+1. Log into dashboard.
+2. Select order > `Request Refund`.
+3. Provide reason (e.g., `duplicate`, `wrong item`).
+
+<Callout kind="alert">
+Refunds unavailable for digital deliveries already accessed. Partial refunds for bundles.
+</Callout>
+
+## Account Access and Recovery
+
+Lost access? Vandar supports quick recovery.
+
+<CodeGroup tabs="Email Reset,Phone OTP">
+  ```javascript
+  // Simulate password reset request
+  const resetUrl = 'https://vandarstore.com/reset-password';
+  // Enter email: your@email.com → Receive link (expires in 1h)
+  ```
+  ```bash
+  # Phone OTP via SMS
+  Login → "Forgot Password?" → Enter +966 phone
+  OTP sent: 123456 → New password set
+  ```
+</CodeGroup>
+
+### Locked Account
+
+If locked after failed logins:
+
+<Steps>
+  <Step title="Wait Period" icon="clock">
+    Accounts auto-unlock after 30 minutes.
+  </Step>
+  <Step title="Contact Support">
+    Submit ticket at `https://vandarstore.com/support` with proof of purchase.
+  </Step>
+</Steps>
+
+## Next Steps
+
+<Columns cols={3}>
+  <Card title="Contact Support" icon="mail" href="https://vandarstore.com/support" target="_blank">
+    24/7 live chat available.
+  </Card>
+  <Card title="Check Status API" icon="api" href="/api-reference">
+    Integrate for automated checks.
+  </Card>
+  <Card title="FAQ" icon="help-circle" href="/faq">
+    More self-help articles.
+  </Card>
+</Columns>
+
+<Callout kind="success">
+Most issues resolve via dashboard checks. Reach out to support@vandarstore.com for personalized help.
+</Callout>
