@@ -11,56 +11,43 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "مركز المعرفة",
         "icon": "book",
         "groups": [
           {
-            "group": "Getting Started",
-            "icon": "rocket",
+            "group": "فاندر | نبسط العالم الرقمي",
             "pages": [
               {
-                "title": "Introduction",
-                "path": "introduction",
-                "icon": "home"
+                "title": "الرئيسية",
+                "path": "home",
+                "icon": "home-icon"
               },
               {
-                "title": "Quick Start",
-                "path": "quickstart",
-                "icon": "zap"
+                "title": "البداية",
+                "path": "start",
+                "icon": "rocket"
               }
             ]
           },
           {
-            "group": "Core Concepts",
-            "icon": "layers",
+            "group": "المفاهيم الأساسية",
             "pages": [
               {
-                "title": "Features",
+                "title": "لماذا فاندر؟",
                 "path": "features",
-                "icon": "file-text"
+                "icon": "stars-icon"
               },
               {
-                "title": "Troubleshooting",
-                "path": "troubleshooting",
-                "icon": "alert-circle"
+                "title": "الاسئلة الشائعة",
+                "path": "faqs",
+                "icon": "lucide-info"
               }
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
-        "icon": "code",
-        "groups": [
-          {
-            "group": "Endpoints",
-            "openapi": "api-reference/openapi.yaml",
-            "pages": []
-          }
-        ]
-      },
-      {
-        "tab": "Help Center",
+        "tab": "مركز المساعدة",
         "icon": "help-circle",
         "pages": [
           {
@@ -104,16 +91,17 @@
         ]
       },
       {
-        "tab": "Changelog",
+        "tab": "سجل التغييرات",
         "icon": "clock",
         "pages": [
           {
-            "title": "Release History",
+            "title": "سجل التغييرات",
             "path": "changelog",
             "icon": "history"
           }
         ]
       }
     ]
-  }
+  },
+  "template": "atlas"
 }
