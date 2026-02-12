@@ -110,5 +110,13 @@
   "template": "classic",
   "logo-light": "https://blob-cdn.documentation.ai/org-db611dbb-2a6c-4ba7-ad56-fcd86de448a7/doc-af65cd44-e173-40b9-a8f2-6028b20a6784/1770897638703-xklbjp1ixjc-Logo-Square.png?q=85&fm=auto&auto=compress%2Cformat",
   "favicon": "https://blob-cdn.documentation.ai/org-db611dbb-2a6c-4ba7-ad56-fcd86de448a7/doc-af65cd44-e173-40b9-a8f2-6028b20a6784/1770897638703-xklbjp1ixjc-Logo-Square.png?q=85&fm=auto&auto=compress%2Cformat",
-  "logo-dark": "https://blob-cdn.documentation.ai/org-db611dbb-2a6c-4ba7-ad56-fcd86de448a7/doc-af65cd44-e173-40b9-a8f2-6028b20a6784/1770897638703-xklbjp1ixjc-Logo-Square.png?q=85&fm=auto&auto=compress%2Cformat"
+  "logo-dark": "https://blob-cdn.documentation.ai/org-db611dbb-2a6c-4ba7-ad56-fcd86de448a7/doc-af65cd44-e173-40b9-a8f2-6028b20a6784/1770897638703-xklbjp1ixjc-Logo-Square.png?q=85&fm=auto&auto=compress%2Cformat",
+  "navbar": {
+    "actions": {
+      "primary": {
+        "title": "المتجر الإلكتروني",
+        "link": "https://vandarstore.com"
+      }
+    }
+  }
 }
