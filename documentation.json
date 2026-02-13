@@ -155,6 +155,16 @@
                 "group": "مشاكل ادوبي كريتيف كلاود",
                 "pages": [],
                 "icon": "pencil-ruler-icon"
+              },
+              {
+                "group": "مشاكل ويندوز",
+                "pages": [],
+                "icon": "lucide-app-window"
+              },
+              {
+                "group": "مشاكل مايكروسوفت أوفيس",
+                "pages": [],
+                "icon": "lucide-whole-word"
               }
             ]
           },
