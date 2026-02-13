@@ -100,6 +100,24 @@
             "expandable": false,
             "pages": [
               {
+                "group": "مشاكل المتجر",
+                "pages": [
+                  {
+                    "title": "تم خصم المبلغ ولم يصل المنتج",
+                    "path": "help-center/troubleshooting/order-not-recived"
+                  },
+                  {
+                    "title": "البيانات او الكود غير صالح",
+                    "path": "help-center/troubleshooting/invalid-product"
+                  },
+                  {
+                    "title": "لم يصل الكود",
+                    "path": "help-center/troubleshooting/key-not-received"
+                  }
+                ],
+                "icon": "store-icon"
+              },
+              {
                 "group": "مشاكل Steam",
                 "pages": [
                   {
@@ -109,20 +127,34 @@
                   {
                     "title": "مشكلة طلب كود التحقق (Steam Guard)",
                     "path": "help-center/troubleshooting/steam/steam-guard"
+                  },
+                  {
+                    "title": "تم قفل حساب Steam بسبب محاولات تسجيل دخول كثيرة",
+                    "path": "help-center/troubleshooting/steam/account-locked"
+                  },
+                  {
+                    "title": "يظهر أن الحساب محظور (VAC Ban)",
+                    "path": "help-center/troubleshooting/steam/vac-ban"
+                  },
+                  {
+                    "title": "لا أستطيع تغيير البريد الإلكتروني في حساب Steam",
+                    "path": "help-center/troubleshooting/steam/data-change"
+                  },
+                  {
+                    "title": "اللعبة موجودة في الحساب ولكن لا يمكن تحميلها",
+                    "path": "help-center/troubleshooting/steam/game-not-downloading"
+                  },
+                  {
+                    "title": "رسالة “This account has limited functionality”",
+                    "path": "help-center/troubleshooting/steam/account-limited"
                   }
-                ]
+                ],
+                "icon": "gamepad2"
               },
               {
-                "title": "لم يصل الكود",
-                "path": "help-center/troubleshooting/key-not-received"
-              },
-              {
-                "title": "تم خصم المبلغ ولم يصل المنتج",
-                "path": "help-center/troubleshooting/order-not-recived"
-              },
-              {
-                "title": "البيانات او الكود غير صالح",
-                "path": "help-center/troubleshooting/invalid-product"
+                "group": "مشاكل ادوبي كريتيف كلاود",
+                "pages": [],
+                "icon": "pencil-ruler-icon"
               }
             ]
           },
