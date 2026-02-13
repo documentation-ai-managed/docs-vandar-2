@@ -66,31 +66,38 @@
             "pages": [
               {
                 "title": "كيف اطلب من فاندر",
-                "path": "help-center/faq/order-code-key"
+                "path": "help-center/faq/order-code-key",
+                "icon": "lucide-info"
               },
               {
                 "title": "ماهي طرق الدفع",
-                "path": "help-center/faq/payment-methods"
+                "path": "help-center/faq/payment-methods",
+                "icon": "lucide-info"
               },
               {
                 "title": "كيف استلم الأكواد بعد الشراء",
-                "path": "help-center/faq/get-codes"
+                "path": "help-center/faq/get-codes",
+                "icon": "lucide-info"
               },
               {
                 "title": "وش اسوي لو ما جاني تأكيد الطلب",
-                "path": "help-center/faq/order-not-confirmed"
+                "path": "help-center/faq/order-not-confirmed",
+                "icon": "lucide-info"
               },
               {
                 "title": "وش يعني \"غير مكتمل الدفع\" في طلبي",
-                "path": "help-center/faq/order-not-paid"
+                "path": "help-center/faq/order-not-paid",
+                "icon": "lucide-info"
               },
               {
                 "title": "كيف اتتبع طلبي",
-                "path": "help-center/faq/order-tarck"
+                "path": "help-center/faq/order-tarck",
+                "icon": "lucide-info"
               },
               {
                 "title": "هل اقدر استرجع الكود او الحساب",
-                "path": "help-center/faq/can-i-return"
+                "path": "help-center/faq/can-i-return",
+                "icon": "lucide-info"
               }
             ]
           },
@@ -175,11 +182,13 @@
             "pages": [
               {
                 "title": "نصائح قبل الشراء من فاندر",
-                "path": "help-center/guides/tips-before-buy"
+                "path": "help-center/guides/tips-before-buy",
+                "icon": "book-open-icon"
               },
               {
                 "title": "سياسة الاستبدال والإسترجاع",
-                "path": "help-center/guides/return-policy"
+                "path": "help-center/guides/return-policy",
+                "icon": "book-open"
               }
             ]
           }
