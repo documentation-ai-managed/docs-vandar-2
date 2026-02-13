@@ -100,8 +100,25 @@
             "expandable": false,
             "pages": [
               {
+                "group": "مشاكل Steam",
+                "pages": [
+                  {
+                    "title": "مشكلة تسجيل الدخول إلى حساب Steam",
+                    "path": "help-center/troubleshooting/steam/error-login"
+                  },
+                  {
+                    "title": "مشكلة طلب كود التحقق (Steam Guard)",
+                    "path": "help-center/troubleshooting/steam/steam-guard"
+                  }
+                ]
+              },
+              {
                 "title": "لم يصل الكود",
                 "path": "help-center/troubleshooting/key-not-received"
+              },
+              {
+                "title": "تم خصم المبلغ ولم يصل المنتج",
+                "path": "help-center/troubleshooting/order-not-recived"
               },
               {
                 "title": "البيانات او الكود غير صالح",
