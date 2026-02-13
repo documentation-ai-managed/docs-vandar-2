@@ -160,7 +160,28 @@
               },
               {
                 "group": "مشاكل ادوبي كريتيف كلاود",
-                "pages": [],
+                "pages": [
+                  {
+                    "title": "كود Adobe مخصص لمستخدم جديد فقط",
+                    "path": "help-center/troubleshooting/adobe-creative-cloud/new-accounts-only"
+                  },
+                  {
+                    "title": "رسالة \"Redemption Code Already Redeemed\"",
+                    "path": "help-center/troubleshooting/adobe-creative-cloud/code-already-redeemed"
+                  },
+                  {
+                    "title": "لا يظهر الاشتراك بعد تفعيل كود ادوبي",
+                    "path": "help-center/troubleshooting/adobe-creative-cloud/subscription-not-visible"
+                  },
+                  {
+                    "title": "الكود لا يعمل بسبب اختلاف الدولة",
+                    "path": "help-center/troubleshooting/adobe-creative-cloud/region-lock"
+                  },
+                  {
+                    "title": "انتهاء صلاحية كود Adobe",
+                    "path": "help-center/troubleshooting/adobe-creative-cloud/code-expired"
+                  }
+                ],
                 "icon": "pencil-ruler-icon"
               },
               {
