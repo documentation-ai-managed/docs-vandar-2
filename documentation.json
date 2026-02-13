@@ -186,12 +186,54 @@
               },
               {
                 "group": "مشاكل ويندوز",
-                "pages": [],
+                "pages": [
+                  {
+                    "title": "المفتاح مخصص لإصدار مختلف من ويندوز",
+                    "path": "help-center/troubleshooting/windows/diffrent-version"
+                  },
+                  {
+                    "title": "Error 0xC004F050 أثناء التفعيل",
+                    "path": "help-center/troubleshooting/windows/0xC004F050-error"
+                  },
+                  {
+                    "title": "Error 0x803FA067 عند إدخال مفتاح Pro",
+                    "path": "help-center/troubleshooting/windows/0x803FA067-error"
+                  },
+                  {
+                    "title": "تم استخدام المفتاح مسبقاً على جهاز آخر",
+                    "path": "help-center/troubleshooting/windows/code-redeemed"
+                  },
+                  {
+                    "title": "ويندوز غير مفعل بعد الفورمات",
+                    "path": "help-center/troubleshooting/windows/code-after-format"
+                  }
+                ],
                 "icon": "lucide-app-window"
               },
               {
                 "group": "مشاكل مايكروسوفت أوفيس",
-                "pages": [],
+                "pages": [
+                  {
+                    "title": "كود Office لا يعمل على Microsoft 365",
+                    "path": "help-center/troubleshooting/microsoft-office/not-work"
+                  },
+                  {
+                    "title": "Error 0xC004C060 في مايكروسوفت أوفيس",
+                    "path": "help-center/troubleshooting/microsoft-office/0xC004C060-error"
+                  },
+                  {
+                    "title": "ظهور رسالة Product Activation Failed",
+                    "path": "help-center/troubleshooting/microsoft-office/product-activation-failed"
+                  },
+                  {
+                    "title": "لا يمكن تفعيل Office بسبب وجود نسخة قديمة",
+                    "path": "help-center/troubleshooting/microsoft-office/not-activated"
+                  },
+                  {
+                    "title": "تم ربط مفتاح Microsoft Office بجهاز آخر",
+                    "path": "help-center/troubleshooting/microsoft-office/already-redeemed"
+                  }
+                ],
                 "icon": "lucide-whole-word"
               }
             ]
