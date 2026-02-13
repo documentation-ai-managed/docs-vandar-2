@@ -65,7 +65,7 @@
             "expandable": false,
             "pages": [
               {
-                "title": "طلب كود منتج",
+                "title": "كيف اطلب من فاندر",
                 "path": "help-center/faq/order-code-key"
               },
               {
@@ -75,6 +75,22 @@
               {
                 "title": "كيف استلم الأكواد بعد الشراء",
                 "path": "help-center/faq/get-codes"
+              },
+              {
+                "title": "وش اسوي لو ما جاني تأكيد الطلب",
+                "path": "help-center/faq/order-not-confirmed"
+              },
+              {
+                "title": "وش يعني \"غير مكتمل الدفع\" في طلبي",
+                "path": "help-center/faq/order-not-paid"
+              },
+              {
+                "title": "كيف اتتبع طلبي",
+                "path": "help-center/faq/order-tarck"
+              },
+              {
+                "title": "هل اقدر استرجع الكود او الحساب",
+                "path": "help-center/faq/can-i-return"
               }
             ]
           },
