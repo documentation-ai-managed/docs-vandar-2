@@ -178,6 +178,10 @@
                     "path": "help-center/troubleshooting/adobe-creative-cloud/region-lock"
                   },
                   {
+                    "title": "انتهت صلاحية الإشتراك او البرامج لا تعمل",
+                    "path": "help-center/troubleshooting/adobe-creative-cloud/sub-expired"
+                  },
+                  {
                     "title": "انتهاء صلاحية كود Adobe",
                     "path": "help-center/troubleshooting/adobe-creative-cloud/code-expired"
                   }
@@ -249,7 +253,7 @@
                 "icon": "book-open-icon"
               },
               {
-                "title": "سياسة الاستبدال والإسترجاع",
+                "title": "سياسة الاستبدال والضمان",
                 "path": "help-center/guides/return-policy",
                 "icon": "book-open"
               }
@@ -281,5 +285,6 @@
         "link": "https://vandarstore.com"
       }
     }
-  }
+  },
+  "initialRoute": "help-center"
 }
