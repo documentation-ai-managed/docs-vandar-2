@@ -99,7 +99,8 @@
                 "path": "help-center/faq/can-i-return",
                 "icon": "lucide-info"
               }
-            ]
+            ],
+            "path": "help-center/faq"
           },
           {
             "group": "حل المشاكل",
