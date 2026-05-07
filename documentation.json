@@ -123,7 +123,8 @@
                     "path": "help-center/troubleshooting/key-not-received"
                   }
                 ],
-                "icon": "store-icon"
+                "icon": "store-icon",
+                "path": "help-center/troubleshooting/vandar-problems"
               },
               {
                 "group": "مشاكل Steam",
@@ -157,7 +158,8 @@
                     "path": "help-center/troubleshooting/steam/account-limited"
                   }
                 ],
-                "icon": "gamepad2"
+                "icon": "gamepad2",
+                "path": "help-center/troubleshooting/steam"
               },
               {
                 "group": "مشاكل ادوبي كريتيف كلاود",
@@ -187,7 +189,8 @@
                     "path": "help-center/troubleshooting/adobe-creative-cloud/code-expired"
                   }
                 ],
-                "icon": "pencil-ruler-icon"
+                "icon": "pencil-ruler-icon",
+                "path": "help-center/troubleshooting/adobe"
               },
               {
                 "group": "مشاكل ويندوز",
@@ -213,7 +216,8 @@
                     "path": "help-center/troubleshooting/windows/code-after-format"
                   }
                 ],
-                "icon": "lucide-app-window"
+                "icon": "lucide-app-window",
+                "path": "help-center/troubleshooting/windows"
               },
               {
                 "group": "مشاكل مايكروسوفت أوفيس",
@@ -239,9 +243,11 @@
                     "path": "help-center/troubleshooting/microsoft-office/already-redeemed"
                   }
                 ],
-                "icon": "lucide-whole-word"
+                "icon": "lucide-whole-word",
+                "path": "help-center/troubleshooting/office"
               }
-            ]
+            ],
+            "path": "help-center/troubleshooting"
           },
           {
             "group": "الإرشادات والمعلومات العامة",
@@ -254,11 +260,32 @@
                 "icon": "book-open-icon"
               },
               {
+                "title": "طريقة الحصول على كود التحقق",
+                "path": "help-center/guides/otp-code",
+                "icon": "book-open"
+              },
+              {
+                "title": "طريقة حماية الحساب بعد الإستلام",
+                "path": "help-center/guides/account-safety",
+                "icon": "book-open"
+              },
+              {
+                "title": "سياسة المنتجات الرقمية",
+                "path": "help-center/guides/digital-products-policy",
+                "icon": "book-open"
+              },
+              {
                 "title": "سياسة الاستبدال والضمان",
                 "path": "help-center/guides/return-policy",
                 "icon": "book-open"
+              },
+              {
+                "title": "أوقات الدعم والتواصل",
+                "path": "help-center/guides/contact",
+                "icon": "book-open"
               }
-            ]
+            ],
+            "path": "help-center/guides"
           }
         ]
       },
